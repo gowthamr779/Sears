@@ -77,7 +77,7 @@ public class Lowest_Fastest_Selection_StepDefinition extends BaseClass {
 			Lowest_Price = Collections.min(pricesList);
 			System.out.println("Lowest Price is: Rs. " + Lowest_Price);
 		} catch (Exception e) {
-			System.out.println("Empty price");
+			System.out.println("Empty price list");
 		}
 	}
 
